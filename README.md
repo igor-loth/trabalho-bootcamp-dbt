@@ -9,7 +9,7 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 - Snowflake
 - DBT
 
-# WHAREHOUSE:
+# Warehouse:
 
 #### View's de origem:
    ##### STG_TPCH_SF1__CUSTOMER
