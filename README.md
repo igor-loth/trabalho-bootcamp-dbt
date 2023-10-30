@@ -31,7 +31,7 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 ![GET](images/dim_customer2.png)
 
 
-#### dbt hub
+### dbt hub
    ##### packages 
 ![GET](images/packages.png)
    
