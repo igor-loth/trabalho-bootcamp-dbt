@@ -2,14 +2,20 @@
 
 O objetivo desse projeto é criar um pipeline completo, utilizando ferramentas atuais de mercado como Snowflake e DBT. Utilizando ferramentas do DBT HUB e boas práticas de governança, modelagem, testes, documentação e etc...
 
-### Requirements:
+### Requisitos:
 
-O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessario contas de acesso nos seguintes ambiente:
+O pipeline foi desenvolvido utilizando plataformas cloud dos seguintes ambientes:
 
 - Snowflake
 - DBT
 
 # Warehouse:
+Ambiente que trás os dados de 3 tabelas da base tpch_sf1 (banco de base teste do Snowflake). 
+A seguintes tabelas fazem parte do pipeline de dados do nosso projeto: 
+
+- customer
+- nation
+- region
 
 #### View's de origem:
    ##### STG_TPCH_SF1__CUSTOMER
@@ -24,7 +30,9 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 ![GET](images/region.png)
 
-#### Tabela dimensão para load
+
+#### dim_customer para load dos dados 
+
    ##### DIM_CUSTOMER
 
 ![GET](images/dim_customer1.png)
@@ -32,12 +40,15 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 
 ### dbt hub
+Buscando melhorias de teste, performance, documentação, organização e por ai vai... O dbt fornece boas praticas e libs para configurar e melhorar seu projeto.
+
    ##### packages 
 ![GET](images/packages_hub.png)
    
 
 
 # Execução:
+O resultado esperado é join dos dados entre as 3 tabelas do nosso source (snowflake).
 
 #### dim_customer:
 ![GET](images/run-dim_customer.png)
@@ -48,10 +59,13 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 
 # Modelagem
+Assim é a modelagem final do nosso projeto.
 ![GET](images/modelagem.png)
 
 
 # Configuração Snowflake
+
+Configuramos uma conexão com o Snowflake usando uma cloud AWS como base.
 
    #### Adicionando a conexão
 
