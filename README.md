@@ -24,12 +24,17 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 ![GET](images/region.png)
 
-##### Tabela dimensão para load
-
+#### Tabela dimensão para load
    ##### DIM_CUSTOMER
 
 ![GET](images/dim_customer1.png)
 ![GET](images/dim_customer2.png)
+
+
+#### dbt hub
+   ##### packages 
+![GET](images/packages.png)
+   
 
 
 ### Transformação:
@@ -43,7 +48,7 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 ### Configuração Snowflake
 
-   ### Adicionando a conexão
+   #### Adicionando a conexão
 
 ![GET](images/PBI 1.png)
 
