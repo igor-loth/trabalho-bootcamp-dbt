@@ -48,7 +48,7 @@ Buscando melhorias de teste, performance, documentação, organização e por ai
 ### source
 Algumas práticas de melhorias no projeto aplicadas no arquivo sources.yml
 
-![GET](images/source.png)
+![GET](images/sources.PNG)
 
 # Execução:
 O resultado esperado é join dos dados entre as 3 tabelas do nosso source (snowflake).
