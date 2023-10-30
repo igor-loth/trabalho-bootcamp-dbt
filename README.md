@@ -28,7 +28,8 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
    ##### DIM_CUSTOMER
 
-![GET](images/dim01.png)
+![GET](images/dim_customer1.png)
+![GET](images/dim_customer2.png)
 
 
 ### Transformação:
