@@ -9,8 +9,6 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 - Snowflake
 - DBT
 
-Além disso é necessário um desktop com acesso ao snowflake configurado. para acesso da plataforma PowerBI Desktop
-
 ### WHAREHOUSE:
 
 #### View's de origem:
@@ -30,7 +28,6 @@ Além disso é necessário um desktop com acesso ao snowflake configurado. para 
 
    ##### DIM_CUSTOMER
 
-
 ![GET](images/dim01.png)
 
 
@@ -41,22 +38,12 @@ Além disso é necessário um desktop com acesso ao snowflake configurado. para 
 ![GET](images/flow.png)
     
     Logs:
-
-
 ![GET](images/execute.png)
 
-### Usando PowerBI e Snowflake para visualização dos dados
+### Configuração Snowflake
 
    ### Adicionando a conexão
 
 ![GET](images/PBI 1.png)
 
-![GET](images/PBI 2.png)
 
-![GET](images/PBI 3.png)
-
-![GET](images/PBI 4.png)
-
-   ### Transformando os dados e modelando o dashboard
-
-![GET](images/PBI 5.png)
