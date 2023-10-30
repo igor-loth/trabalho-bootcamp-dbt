@@ -1,6 +1,6 @@
 # trabalho-bootcamp-dbt
 
-### O objetivo desse projeto é criar um pipeline completo, utilizando ferramentas atuais de mercado como Snowflake e DBT. Utilizando ferramentas do DBT HUB e boas práticas de governança, modelagem, testes, documentação e etc...
+O objetivo desse projeto é criar um pipeline completo, utilizando ferramentas atuais de mercado como Snowflake e DBT. Utilizando ferramentas do DBT HUB e boas práticas de governança, modelagem, testes, documentação e etc...
 
 ### Requirements:
 
@@ -9,7 +9,7 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 - Snowflake
 - DBT
 
-### WHAREHOUSE:
+# WHAREHOUSE:
 
 #### View's de origem:
    ##### STG_TPCH_SF1__CUSTOMER
@@ -37,7 +37,7 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
    
 
 
-### Transformação:
+# Transformação:
  
      dim_customer.sql
 
@@ -47,7 +47,12 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 ![GET](images/log-dim_customer1.png)
 ![GET](images/log-dim_customer2.png)
 
-### Configuração Snowflake
+
+# Modelagem
+![GET](images/modelagem.png)
+
+
+# Configuração Snowflake
 
    #### Adicionando a conexão
 
