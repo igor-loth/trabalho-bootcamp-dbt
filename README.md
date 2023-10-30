@@ -41,15 +41,17 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
  
      dim_customer.sql
 
-![GET](images/flow.png)
+![GET](images/run-dim_customer.png)
     
     Logs:
-![GET](images/execute.png)
+![GET](images/log-dim_customer1.png)
+![GET](images/log-dim_customer2.png)
 
 ### Configuração Snowflake
 
    #### Adicionando a conexão
 
-![GET](images/PBI 1.png)
+![GET](images/snowflake1.png)
+![GET](images/snowflake1.png)
 
 
