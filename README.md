@@ -45,7 +45,7 @@ Buscando melhorias de teste, performance, documentação, organização e por ai
    ##### packages 
 ![GET](images/packages_hub.png)
    
-### source
+### _tpch_sf1__sources.yml
 Algumas práticas de melhorias no projeto aplicadas no arquivo sources.yml
 
 ![GET](images/sources.PNG)
