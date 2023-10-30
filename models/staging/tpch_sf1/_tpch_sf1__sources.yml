@@ -9,6 +9,10 @@ sources:
 
       - name: customer
         description: Customer table with personal details.
+        access: public
+        config:
+          contract:
+            enforced: true
         columns:
         - name: c_custkey
           description: This is the Customer Key.
@@ -18,6 +22,10 @@ sources:
 
       - name: nation
         description: Nations table holding repetitive data.
+        access: public
+        config:
+          contract:
+            enforced: true
         columns:
         - name: n_nationkey
           description: This is the Nation Key.
@@ -27,6 +35,10 @@ sources:
 
       - name: region
         description: Regions table holding repetitive data.
+        access: public
+        config:
+          contract:
+            enforced: true
         columns:
         - name: r_regionkey
           description: This is the Region Key.
