@@ -37,12 +37,12 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
    
 
 
-# Transformação:
+# Execução:
  
-   ####dim_customer.sql
+dim_customer.sql
 ![GET](images/run-dim_customer.png)
     
-   ####Logs:
+Logs:
 ![GET](images/log-dim_customer1.png)
 ![GET](images/log-dim_customer2.png)
 
