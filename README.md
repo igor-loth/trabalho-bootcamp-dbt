@@ -60,6 +60,7 @@ O resultado esperado é join dos dados entre as 3 tabelas do nosso source (snowf
 
 # Modelagem
 Assim é a modelagem final do nosso projeto.
+
 ![GET](images/modelagem.png)
 
 
