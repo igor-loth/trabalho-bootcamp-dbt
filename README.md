@@ -38,11 +38,11 @@ O pipeline foi desenvolvido utilizando plataformas cloud, sendo assim é necessa
 
 
 # Execução:
- 
-dim_customer.sql
+
+#### dim_customer:
 ![GET](images/run-dim_customer.png)
-    
-Logs:
+
+#### logs de execução:
 ![GET](images/log-dim_customer1.png)
 ![GET](images/log-dim_customer2.png)
 
